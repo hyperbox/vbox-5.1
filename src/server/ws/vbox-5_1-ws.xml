@@ -1,0 +1,15 @@
+<module>
+	<id>vbox-5_1-ws</id>
+	<path>vbox-5_1-ws</path>
+	<name>Virtualbox 5.1 WebService Connector</name>
+	<desc>This module provides the WebServices connector for VirtualBox 5.1</desc>
+	<version>0.1.0</version>
+	<vendor>Kamax.io</vendor>
+	<url>https://kamax.io/hbox/</url>
+	<providers>
+		<provider>
+			<type>io.kamax.hboxd.hypervisor._Hypervisor</type>
+			<impl>io.kamax.vbox5_1.VBoxWebServicesHypervisor</impl>
+		</provider>
+	</providers>
+</module>
